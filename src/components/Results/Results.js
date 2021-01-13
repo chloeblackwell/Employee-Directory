@@ -1,17 +1,19 @@
 import React from "react";
+import ArrowUp from '@material-ui/icons/ArrowUpward';
+import ArrowDown from '@material-ui/icons/ArrowDownward';
 
 function SearchResults(props) {
 
     return (
         <div>
-            <table>
-                <thead>
+            <table class="table table-bordered">
+                <thead class="thead-dark">
                     <tr>
-                        <th>Image</th>
-                        <th>Name</th>
-                        <th>Email Address</th>
-                        <th>Phone Number</th>
-                        <th>Date of Birth</th>
+                        <th scope="col">Image</th>
+                        <th scope="col">Name <ArrowUp className="icon" onClick={props.Ascending} /> <ArrowDown className="icon" onClick={props.Descending} /></th>
+                        <th scope="col">Email Address <ArrowUp clasName="icon" onClick={props.EmailSort} /> <ArrowDown className="icon" onClick={props.EmailSortDown} /></th>
+                        <th scope="col">Phone Number</th>
+                        <th scope="col">Date of Birth</th>
                     </tr>
                 </thead>
                 <tbody>
@@ -26,7 +28,7 @@ function SearchResults(props) {
                     )}
                 </tbody>
             </table>
-        </div>
+        </div >
     )
 }
 

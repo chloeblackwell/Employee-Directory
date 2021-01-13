@@ -1,4 +1,5 @@
 import React from "react";
+import "./Search.css";
 
 function SearchForm(props) {
     return (
@@ -14,7 +15,7 @@ function SearchForm(props) {
                     placeholder="Search Name"
                     id="searchBar"
                 />
-                <button type="submit" onClick={props.handleFormSubmit} className="btn btn-success">
+                <button type="submit" onClick={props.handleFormSubmit} className="btn btn-success mt-3">
                     Search
                 </button>
             </div>

@@ -1,14 +1,15 @@
 import React from "react"
+import "./Header.css";
 
 function Header() {
     return (
-        <div className="title">
+        <div className="header">
             <div className="headingText">
                 <h1>
                     Employee Directory
                 </h1>
                 <h4>
-                    Click on the arrows to sort or filter by heading
+                    Click on the arrows to sort by heading or search from an employee
                 </h4>
             </div>
         </div>

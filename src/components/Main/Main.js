@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import SearchForm from "../Search/Search";
 import SearchResults from "../Results/Results";
 import API from "../../utils/API";
+import "./Main.css";
 
 class Main extends Component {
     state = {
@@ -28,6 +29,16 @@ class Main extends Component {
         this.setState({ results: descendingList })
     }
 
+    EmailSort = () => {
+        const sortEmail = this.state.results.sort((a, b) => (a.email > b.email) ? 1 : -1)
+        this.setState({ sortEmail })
+    }
+
+    EmailSortDown = () => {
+        const sortEmailDown = this.state.results.sort((a, b) => (a.email > b.email) ? -1 : 1)
+        this.setState({ sortEmailDown })
+    }
+
 
     render() {
         const filteredList = this.state.results.filter((item) => {
@@ -46,6 +57,8 @@ class Main extends Component {
                     results={filteredList}
                     Ascending={this.Ascending}
                     Descending={this.Descending}
+                    EmailSort={this.EmailSort}
+                    EmailSortDown={this.EmailSortDown}
                 />
             </div>
         );
