@@ -43,6 +43,7 @@ The application can be invoked with npm start.
 
 ## Link to deployed app
 
+<a href="https://chloeblackwell.github.io/Employee-Directory/">Link to the app</a>
 
 ## Author 
 
