@@ -37,7 +37,7 @@ The application can be invoked with npm start.
 
 ## License
 
-MIT License
+There is no license for this application
 
 ## Link to deployed app
 
