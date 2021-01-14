@@ -1,8 +1,9 @@
-form {
+#searchBar {
   width: 300px;
-  margin-left: 400px;
+  margin-left: 450px;
 }
 
-button {
-  float: right;
+.searchButton {
+  margin-left: 565px;
+  position: relative;
 }

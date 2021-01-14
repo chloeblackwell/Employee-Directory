@@ -9,7 +9,7 @@ function Header() {
                     Employee Directory
                 </h1>
                 <h4>
-                    Click on the arrows to sort by heading or search from an employee
+                    Click on the arrows to sort by name or email or search from an employee
                 </h4>
             </div>
         </div>
