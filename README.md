@@ -26,7 +26,7 @@ To use this application, git clone this repository. Once you have git cloned, ru
 
 The application can be invoked with npm start.
 
-### Built With 
+## Built With 
 
 
 * VS Code (https://code.visualstudio.com/)
@@ -34,11 +34,11 @@ The application can be invoked with npm start.
 * React 
 * Random User API 
 
-### Screenshots 
+## Screenshots 
 
 
 
-### License 
+## License 
 
 
 ## Link to deployed app
